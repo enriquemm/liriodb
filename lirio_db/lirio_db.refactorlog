@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="2d89e863-656b-4569-ae9c-0ab0fa65b7b8" ChangeDateTime="06/09/2015 03:58:14">
+    <Property Name="ElementName" Value="[dbo].[TIPO_MOVIMIENTO].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIPO_MOVIMIENTO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MOVIMIENTO_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e6c524fc-2aa1-40b5-8322-474f66c2736c" ChangeDateTime="06/09/2015 04:00:09">
+    <Property Name="ElementName" Value="[dbo].[INQUILINOS].[TELEFONO_1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[INQUILINOS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CELULAR" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b205c4c2-bc7e-42d7-a48b-33752d562b28" ChangeDateTime="06/09/2015 04:00:26">
+    <Property Name="ElementName" Value="[dbo].[INQUILINOS].[TELEFONO_2]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[INQUILINOS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CASA" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="189c8c97-eb13-4136-a12d-9abaa62fc262" ChangeDateTime="06/09/2015 04:01:26">
+    <Property Name="ElementName" Value="[dbo].[INQUILINOS].[INQUILINO_MAIL]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[INQUILINOS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CORREO" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8d7050d7-dd99-4af0-a6e3-5dfb09db53e0" ChangeDateTime="06/09/2015 04:01:33">
+    <Property Name="ElementName" Value="[dbo].[INQUILINOS].[CASA]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[INQUILINOS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TELEFONO" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39456fe4-c4f6-4d42-afd2-f2c0b02bb436" ChangeDateTime="06/09/2015 04:01:56">
+    <Property Name="ElementName" Value="[dbo].[INQUILINOS].[RE]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[INQUILINOS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RESPONSABLE_NOMBRE" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="78215faa-b1bf-4e8d-b2a3-8a4860e78be1" ChangeDateTime="06/09/2015 04:04:53">
+    <Property Name="ElementName" Value="[dbo].[TIPOS_GASTO].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIPOS_GASTO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TIPO_GASTO_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c9ff47ff-0bf4-4949-9527-8b45d96b0483" ChangeDateTime="06/10/2015 04:53:05">
+    <Property Name="ElementName" Value="[dbo].[TIPO_MOVIMIENTO].[MOVIMIENTO_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIPO_MOVIMIENTO]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TRANSACTION_TYPE_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2a3f6f4-aef6-4fc1-9b81-cad29653fd6b" ChangeDateTime="06/11/2015 03:32:25">
+    <Property Name="ElementName" Value="[dbo].[RENTAS_DETALLE].[RENTA_DETALLE_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RENTAS_DETALLE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RENTAL_DETAIL_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="26aa7ff9-e81f-401e-9223-57a723d34ca7" ChangeDateTime="06/11/2015 03:32:31">
+    <Property Name="ElementName" Value="[dbo].[RENTAS_DETALLE].[RENTA_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RENTAS_DETALLE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RENTAL_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="55d675f7-ce1e-4975-8f40-e87782ce8741" ChangeDateTime="06/11/2015 03:32:38">
+    <Property Name="ElementName" Value="[dbo].[RENTAS_DETALLE].[MENSUALIDAD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RENTAS_DETALLE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PAYMENT" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7087fe8c-3674-4414-9c22-6073502f6f46" ChangeDateTime="06/11/2015 03:32:57">
+    <Property Name="ElementName" Value="[dbo].[RENTAS_DETALLE].[FECHA]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RENTAS_DETALLE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PAYMENT_DATE" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c98f4edc-dfad-4b56-92e6-953df37f8057" ChangeDateTime="06/11/2015 04:10:16">
+    <Property Name="ElementName" Value="[dbo].[FK_BALANCES_APARTMENT]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[BALANCES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_BALANCES_DEPARTMENT]" />
+  </Operation>
+</Operations>
