@@ -95,6 +95,7 @@
     <Build Include="dbo\Stored Procedures\DEPARTMENTS_CREATE_SP.sql" />
     <Build Include="dbo\Stored Procedures\DEPARTMENTS_UPDATE_SP.sql" />
     <Build Include="dbo\Stored Procedures\DEPARTMENTS_DELETE_SP.sql" />
+    <Build Include="dbo\Views\OWNERS_VIEW.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="lirio_db.refactorlog" />
